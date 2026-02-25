@@ -58,7 +58,10 @@ export const Header = ({ isAuthenticated = false, userType, onLogout }: HeaderPr
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between px-4">
+    <div>I am the Contributer And My name is chirag</div>  
+    <div>Heloo </div>
+
+    <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link to={isAuthenticated ? (userType === 'student' ? '/homepage' : '/teacher/dashboard') : '/landingpage'} className="flex items-center space-x-2">
           <div className="rounded-lg bg-gradient-primary p-2">
